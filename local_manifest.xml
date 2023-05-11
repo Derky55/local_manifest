@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="githublab"
+
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+
+        <project path="device/samsung" name="Derky55/android_device_samsung_exynos7885" remote="githublab" revision="android-13" /> 
+
+        
+
+        <!-- Clang -->
+
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="Derky55/clang-proton" remote="githublab" revision="master" clone-depth="1" />
+
+</manifest>
